@@ -76,6 +76,12 @@ Setting up the base LED array on breadboard:
 | [Wiring Diagram Phase 0](docs/wiring_diagram_phase0.md) | 5-LED breadboard schematic |
 | [Phase 0 Day 1 Checklist](docs/PHASE0_DAY1_CHECKLIST.md) | Physical assembly tasks |
 
+## Arduino Baseline Sketch
+
+Upload `baseline_led.ino` to verify basic LED sequencing on PWM pins 3, 5, 6, 9, 10.
+
+**Expected behavior:** Each LED turns ON then OFF in sequence (3 ON/OFF → 5 ON/OFF → 6 ON/OFF → 9 ON/OFF → 10 ON/OFF → repeat).
+
 ## License
 
 See [LICENSE](LICENSE) for details.
