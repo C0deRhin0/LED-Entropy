@@ -39,7 +39,7 @@ flowchart TD
 
 ## Project Status
 
-### ✅ Phase 0 Day 1: Physical Fabrication (Current)
+### Phase 0 Day 1: Physical Fabrication (Current)
 
 Setting up the base LED array on breadboard:
 
@@ -53,7 +53,7 @@ Setting up the base LED array on breadboard:
 
 **See:** [Phase 0 Day 1 Checklist](docs/PHASE0_DAY1_CHECKLIST.md) | [Wiring Diagram](docs/wiring_diagram_phase0.md)
 
-### 🔜 Upcoming Phases
+### Upcoming Phases
 
 - **Phase 0 Day 2:** Base system mapping (Arduino sketch)
 - **Phase 1:** Hardware entropy logic (capacitor + transistor + LDR)

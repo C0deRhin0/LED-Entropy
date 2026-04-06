@@ -51,11 +51,11 @@ flowchart LR
 
 | Arduino Pin | PWM Capable | LED Position | Resistor |
 |-------------|-------------|--------------|----------|
-| 3 | ✅ Yes | LED 1 | 220Ω |
-| 5 | ✅ Yes | LED 2 | 220Ω |
-| 6 | ✅ Yes | LED 3 | 220Ω |
-| 9 | ✅ Yes | LED 4 | 220Ω |
-| 10 | ✅ Yes | LED 5 | 220Ω |
+| 3 | Yes | LED 1 | 220Ω |
+| 5 | Yes | LED 2 | 220Ω |
+| 6 | Yes | LED 3 | 220Ω |
+| 9 | Yes | LED 4 | 220Ω |
+| 10 |  Yes | LED 5 | 220Ω |
 
 ## Wiring Instructions
 
@@ -79,11 +79,11 @@ flowchart LR
 
 ## Safety Notes
 
-⚠️ **Current Limiting**: Always use 220Ω resistors. Direct connection will destroy LEDs.
+ **Current Limiting**: Always use 220Ω resistors. Direct connection will destroy LEDs.
 
-⚠️ **Polarity**: LEDs are diodes — they only work in one direction. Anode to positive.
+ **Polarity**: LEDs are diodes — they only work in one direction. Anode to positive.
 
-⚠️ **PWM Requirement**: Only pins 3, 5, 6, 9, 10, 11 support analogWrite() on Uno.
+ **PWM Requirement**: Only pins 3, 5, 6, 9, 10, 11 support analogWrite() on Uno.
 
 ## Verification Checklist
 
@@ -94,4 +94,4 @@ flowchart LR
 
 ## Physical Evidence
 
-📸 **Proof Photo**: See `/assets/phase0_breadboard.jpg`
+ **Proof Photo**: See `/assets/phase0_breadboard.jpg`
